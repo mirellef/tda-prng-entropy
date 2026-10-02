@@ -2,7 +2,6 @@ import numpy as np
 from scipy.stats import mannwhitneyu
 from ripser import ripser
 
-
 # ---------------------------------------------------------
 # 1. Módulo de Geração e Embedding
 # ---------------------------------------------------------
@@ -75,7 +74,7 @@ def run_tda_pipeline(cloud):
 # ---------------------------------------------------------
 if __name__ == "__main__":
     N_SEQS = 100
-    N_SAMPLES = 10000
+    N_SAMPLES = 50000
     EMBED_M, EMBED_TAU = 3, 1
 
     print(f"--- A iniciar PoC: {N_SEQS} sequências MT vs {N_SEQS} LCG ruim ---")
