@@ -8,6 +8,10 @@ Este repositório é dedicado ao estudo comparativo de **Geradores de Números P
 
 ## 🔬 Geradores Analisados
 
+- LCG 
+- RAND
+- MT19937
+
 ## 🚀 Como Executar
 
 ## 📊 Resultados Esperados
